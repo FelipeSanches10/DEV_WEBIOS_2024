@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            padding-left: 70px;
+            margin-top: 45px;
+            
+        }
+
+        input {
+            display: block;
+            border-radius: 7px;
+            border: solid 1px black;
+            height: 25px;
+            transition: all 0.6s;
+            box-shadow: 1px 1px 2px;
+            width: 200px;
+        }
+
+        input:hover {
+            transform: scale(1.20);
+        }
+
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        select {
+            border-radius: 8px;
+            height: 25px;
+            width: 205px;
+            box-shadow: 1px 1px 2px;
+        }
+
+        label > strong {
+            font-size: 15px;
+        }
+
+        textarea {
+            width: 200px;
+            height: 75px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 2px;
+        }
+
+        input:hover {
+            background-color: rgb(216, 224, 216);
+        }
+
+    </style>
+</head>
+<body>
+    <strong><h3>Compre sua passagem de avião:</h3></strong>
+    <form action="inscricao.html" style="background: radial-gradient(rgb(211, 214, 214), rgb(182, 189, 194)); width: 210px; height: 475px; padding: 30px; border-radius: 20px; box-shadow: 1px 2px 4px;" >
+        <label>Nome:
+        <input type="text" name="name" id="name" placeholder="✏️ Digite seu nome...">
+    </label> <br>
+    <label>Idade:
+        <input type="number" name="idade" id="idade" placeholder="👴 Digite sua idade...">
+    </label>
+    <br>
+    <label>E-mail:
+        <input type="email" name="email" id="email" placeholder="📧 Digite seu email...">
+    </label>
+    <br>
+    <label>Telefone:
+        <input type="number" name="telefone" id="telefone" placeholder="📱 Digite seu telefone...">
+    </label>
+    <br>
+    <br>
+    <label><strong>Aeroportos para viagens:</strong></label><br><br>
+    <select id="aero">
+        <option value="select">Selecione</option>
+        <option value="Santos Drumond">Santos Drumond</option>
+        <option value="Guarulhos">Guarulhos</option>
+        <option value="Viracopos">Viracopos</option>
+        <option value="Viracopos">Aeroporto Campo de Marte</option>
+        <option value="Congonhas">Congonhas</option>
+    </select>
+    <br>
+    <br>
+
+    <!-- <input type="text" list="cidade">
+
+    <!-- <datalist id="cidade">
+        <option value="São Paulo"></option>
+        <option value="Rondonia"></option>
+        <option value="Amapá"></option>
+        <option value="Rio de Janeiro"></option>
+        <option value="Belo Horizonte"></option>
+        <option value="Paraná"></option>
+        <option value="Goias"></option>
+        <option value="Goiania"></option>
+        <option value="Acre"></option>
+        <option value="Amazonas"></option>
+        <option value="Sergipe"></option>
+    </datalist> -->
+
+    <textarea name="" id="" cols="10" rows="10" placeholder="Deixe seu feedback..."></textarea>
+    <br>
+    <br>
+    <input type="submit" class="enviar" style="background-color: rgb(42, 250, 42);">
+    </form>
+</body>
+</html>
