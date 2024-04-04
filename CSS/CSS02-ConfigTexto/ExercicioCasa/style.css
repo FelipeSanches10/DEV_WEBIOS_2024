@@ -1,0 +1,13 @@
+body {
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    background-color: #b3e9f3;;
+}
+
+h1 {
+    color: #6590d1;
+    text-shadow: 3px 3px 3px #48789f;
+}
+
+/* Ajuste o tamanho da imagem em 500px x 300px OBS(Se a sua imagem ficar distorcida pode ajustar o pixel) */
