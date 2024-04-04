@@ -10,4 +10,7 @@ h1 {
     text-shadow: 3px 3px 3px #48789f;
 }
 
-/* Ajuste o tamanho da imagem em 500px x 300px OBS(Se a sua imagem ficar distorcida pode ajustar o pixel) */
+img {
+    width: 500px;
+    height: 300px;
+}
