@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-family: "Reddit Mono", monospace;
+    flex-wrap: wrap;
+    
+}
+
+img {
+    border-radius: 9999px;
+    height: 700px;
+    display: block;
+    margin: auto;
+}
+
+
+h1, p {
+    text-align: center;
+    padding: 10px;
+    color: rgb(116, 116, 2);
+    font-size: 22px;
+}
