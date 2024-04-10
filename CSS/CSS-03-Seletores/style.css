@@ -1,0 +1,19 @@
+/* <!-- Seletores --> */
+
+*{
+    text-align: center;
+}
+
+.color-p1 {
+    color: rgb(15, 120, 146);
+}
+
+.color-p2 {
+    color: rgb(179, 34, 34);
+}
+
+.letter-color {
+    background-color: aqua;
+}
+
+
