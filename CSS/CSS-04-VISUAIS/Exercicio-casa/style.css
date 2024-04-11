@@ -20,3 +20,12 @@ th {
     color: #8fbfb9;
     font-weight: bold;
 }
+
+img {
+    display: block;
+    margin-top: auto;
+}
+
+figure {
+    text-align: center;
+}
