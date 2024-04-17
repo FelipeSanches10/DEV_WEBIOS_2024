@@ -1,3 +1,58 @@
+body {
+    background-color: rgb(182, 177, 177);
+}
+
 p:first-child {
     background-color: rgb(152, 152, 211);
+}
+
+img {
+    width: 30%;
+    transition: all 0.8s;
+}
+
+img:hover {
+    transform: scale(1.09);
+}
+
+button {
+    width: 60%;
+    height: 80px;
+    transition: all 0.8s;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    overflow: hidden;
+    transform: all 0.60s;
+    font-family: "Jacquard 24", system-ui;
+    font-size: 40px;
+    box-shadow: 4px 7px 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale3d(1.05);
+    border: 70px solid rgb(0, 0, 0);
+    width: 30px;
+    height: 120px;  
+    opacity: 0;
+}
+
+.oi {
+    background-color: green;
+    transform: all 0.100s;
+    font-family: "Jacquard 24", system-ui;
+}
+
+.oi:hover{
+    transform: scale3d(1.19);
+}
+
+#pseudo::before {
+    content: "My button ";
+}
+
+#pseudo::after {
+    content: "My button";
 }
