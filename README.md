@@ -1,6 +1,6 @@
 # Desenvolvimento Web Ios
 
-### Lucas Candeias
+### Felipe Sanches
 
 Estou no curso de desenvolvimento web porque quero mudar de carreira.
 
