@@ -1,0 +1,33 @@
+img{
+    width: 700px;
+}
+/* quando a largura da tela for dde 300px a largura da tela sera atualizaza para 200px */
+
+/* enquanto a largura minima for de 450px a largua das imagens serão de 200px mix-width / max-width */
+
+@media(max-width: 450px) {
+    body{
+        background-color: aqua;
+    }
+    img:{
+        width: 200px;
+    }
+    img:hover{
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px black;
+    }
+}
+@media(win-width: 452px){
+    
+}
+
+@media(min-width: 452px){
+    body{
+        background-color: blueviolet;
+    }
+
+    img{
+        width: 400px;
+    }
+} 

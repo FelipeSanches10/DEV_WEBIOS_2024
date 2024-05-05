@@ -1,0 +1,53 @@
+body{
+    background-color: bisque;
+}
+
+#div2{
+    border: solid 5px black;
+    margin: 15px;
+    padding: 15px;
+}
+
+#button{
+    border: 1px solid rgb(66, 65, 65);
+    background-color: rgb(206, 204, 204);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+}
+#button:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+#paragrafoHover{
+    margin: 15px;
+    padding: 15px;
+}
+#paragrafoHover:hover{
+    background-color: orange;
+    color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+}
+
+#titulo:hover{
+    
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#imagem:hover{
+    box-shadow: 10px 10px 10px blue;
+    width: 700px;
+    height: 700px;
+    
+}
+
+#pseudo::before{    
+    content: 'Utilizando o before ';
+
+}

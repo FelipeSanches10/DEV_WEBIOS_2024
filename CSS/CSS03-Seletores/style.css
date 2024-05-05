@@ -1,0 +1,24 @@
+/* SELETOR PAI */
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+.CorAzul{
+    color: blue;
+}
+
+.CorVermelha{
+    color: red;
+}
+
+.CorVerde{
+    color: green;
+}
+.CorCinza{
+    color: gray;
+}
+.CorRoxa{
+    color: purple;
+}
