@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: stretch;
+}
+
+.item{
+    border: solid 3px black;
+    background-color: grey;
+    width: 50px;
+    /* height: 60px; */
+    text-align: center;
+}

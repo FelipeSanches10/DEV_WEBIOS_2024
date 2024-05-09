@@ -1,8 +1,8 @@
 body {
     font-size: 1rem;
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 700;
-    background-color: #b3e9f3;;
+    background-color: #b3e9f3;
 }
 
 h1 {
@@ -10,7 +10,17 @@ h1 {
     text-shadow: 3px 3px 3px #48789f;
 }
 
+h2 {
+    color: #6590d1;
+    text-shadow: 3px 3px 3px #48789f;
+}
+
 img {
     width: 500px;
     height: 300px;
+    object-fit: cover;
+}
+http://127.0.0.1:5500/CSS/CSS02-ConfigTexto/ExercicioCasa/index.html
+{
+    text-shadow: #48789f;
 }

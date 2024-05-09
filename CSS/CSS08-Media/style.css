@@ -1,48 +1,33 @@
-img {
+img{
     width: 700px;
 }
+/* quando a largura da tela for dde 300px a largura da tela sera atualizaza para 200px */
 
-/* Quando a largura da tela for de 450px a 
-imagens terão uma largura de 200px */
-
-/* Enquanto a largura maxima for de 450px a
-largura das imagens serão de 200px 
-min-width / max-width */
+/* enquanto a largura minima for de 450px a largua das imagens serão de 200px mix-width / max-width */
 
 @media(max-width: 450px) {
-    body {
+    body{
         background-color: aqua;
     }
-
-}
-
-img {
-    width: 200px;
-    transition: all 0.45s;
-}
-
-img:hover {
-    border: 3px solid black;
-    box-shadow: 10px 10px 10px;
-    border-radius: 100%;
-    transform: scale(1.20);
-    transform-box: 10px;
-}
-
-@media(min-width: 452px) {
-    body {
-        background-color: blueviolet;
-        
+    img:{
+        width: 200px;
+    }
+    img:hover{
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px black;
     }
 }
-
-    img {
-        width: 1150px;
-        box-shadow: rgba(red, green, blue, alpha) 10px 10px;
-    }
-
-    img:hover { 
-        border-radius: 30px;
-        box-shadow: rgba(red, green, blue, alpha) 10px 10px 10px;
-    }
+@media(win-width: 452px){
     
+}
+
+@media(min-width: 452px){
+    body{
+        background-color: blueviolet;
+    }
+
+    img{
+        width: 400px;
+    }
+} 

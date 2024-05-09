@@ -1,18 +1,13 @@
-# Desenvolvimento Web IOS
+# Desenvolvimento Web Ios
 
-## Felipe Vieira Sanches
+### Felipe Sanches
 
-Estou no curso de Desenvolvimento Web na IOS, 
-Porque quero mudar de carreira.
+Estou no curso de desenvolvimento web porque quero mudar de carreira.
 
-### Meu primeiro código
+### Meu primeiro codigo 
 
 ```
-     <div>
-        <p>Olha a pegadinha...</p>
-    </div>
-
-     <div>
-        <p>Olha outra pegadinha...</p>
-    </div>
+        <div>
+        <p>Olha a pegadinha</p>
+        </div>
 ```

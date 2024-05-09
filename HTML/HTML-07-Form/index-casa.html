@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Opinião sobre a Empresa</title>
+</head>
+<body>
+    
+        <h1>Formulário de Opinião sobre a Empresa</h1>
+        <fieldset>
+            <form action="">
+            <label for="nome_empresa">Nome da Empresa:</label><br>
+            <input type="text" id="nome_empresa" name="nome_empresa" required><br><br>
+        </fieldset><br>        
+        <fieldset style=>
+            <label for="data_entrada">Data de Entrada na Empresa:</label><br>
+            <input type="date" id="data_entrada" name="data_entrada" required><br><br>
+        </fieldset><br> 
+        <fieldset style=>
+            <label for="quantidade_funcionarios">Quantidade de Funcionários na Empresa:</label><br>
+            <input type="number" id="quantidade_funcionarios" name="quantidade_funcionarios" required><br><br>
+        </fieldset><br>
+        <fieldset style=>
+            <label for="salario">Salário:</label><br>
+            <input type="number" id="salario" name="salario" required><br><br>
+        </fieldset><br>    
+        <fieldset style=>
+            <label for="ainda_na_empresa">Ainda trabalha na empresa?</label><br>
+            <input type="radio" id="ainda_na_empresa_sim" name="ainda_na_empresa" value="sim" required>
+            <label for="ainda_na_empresa_sim">Sim</label>
+            <input type="radio" id="ainda_na_empresa_nao" name="ainda_na_empresa" value="nao">
+            <label for="ainda_na_empresa_nao">Não</label><br><br>
+        </fieldset><br>
+        <fieldset style=>
+            <label for="tipo_contratacao">Tipo de Contratação:</label><br>
+            <input type="radio" id="tipo_contratacao_clt" name="tipo_contratacao" value="CLT" required>
+            <label for="tipo_contratacao_clt">CLT</label>
+            <input type="radio" id="tipo_contratacao_pj" name="tipo_contratacao" value="PJ">
+            <label for="tipo_contratacao_pj">PJ</label><br><br>
+        </fieldset><br>
+        <fieldset id="beneficios" name="beneficios[]"multiple><br> 
+            <label for="beneficios">Benefícios Recebidos:</label><br><br>
+            <input type="checkbox" value="vale_refeicao">Vale Refeição</input><br>
+            <input type="checkbox" value="vale_alimentacao">Vale Alimentação</input><br>
+            <input type="checkbox" value="vale_transporte">Vale Transporte</input><br>
+            <input type="checkbox" value="academias">Academias</input><br>
+            <input type="checkbox" value="plr">PLR</input><br>
+            <input type="checkbox" value="plano_saude">Plano de Saúde</input><br>
+            <input type="checkbox" value="plano_odontologico">Plano Odontológico</input><br>
+            <input type="checkbox" value="cesta_basica">Cesta Básica</input><br>
+            <input type="checkbox" value="day_off">Day Off</input><br>
+            <input type="checkbox" value="bolsa_estudos">Bolsa de Estudos</input><br>
+            <input type="checkbox" value="licenca_maternidade_paternidade">Licença Maternidade/Paternidade</input><br>
+            <input type="checkbox" value="pet_friendly">Pet Friendly</input><br>
+            <input type="checkbox" value="emprestimo_consignado">Empréstimo Consignado</input><br>
+        </fieldset><br><br>
+        <fieldset>
+            <label for="pros_empresa">Prós da Empresa:</label><br>
+            <textarea id="pros_empresa" name="pros_empresa"></textarea>
+        </fieldset><br>
+        <fieldset>
+            <label for="contras_empresa">Contras da Empresa:</label><br>
+            <textarea id="contras_empresa" name="contras_empresa"></textarea><br><br>
+        </fieldset><br>
+
+        <input type="submit" value="Enviar Opinião">
+        
+    </form>
+</body>
+</html>

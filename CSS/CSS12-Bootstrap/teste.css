@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    background-color: rgb(0, 0, 133);
+    text-align: center;
+    padding: 20px;
+    font-size: 32px
+}
+
+span{
+    color: red;
+    font-weight: 600;
+}
+
+
+.navigation{
+    background-color: rgb(53, 80, 233);
+    padding: 10px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(83, 220, 224);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 21px;
+}
+
+.div {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}

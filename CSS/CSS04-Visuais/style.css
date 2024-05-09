@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.PrimeiroParagrafo{
+    border: 5px solid green;
+}
+
+.SegundoParagrafo{
+    border: 5px solid purple;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#imagem{
+    border: 5px solid blue;
+}
+
+body{
+   background-image: url("https://picsum.photos/id/684/600/400");
+   background-repeat: no-repeat;
+   /* background-position: center; */
+   background-size: 100%;
+   background-attachment: scroll;
+}

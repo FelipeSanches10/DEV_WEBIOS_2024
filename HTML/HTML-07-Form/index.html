@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- FORMULARIOS -->
+    <!-- Atributo action manda as informações para um destinatario -->
+    <!-- input é uma marcação de um ponto de entrada -->
+    <!--  -->
+    <h2>Pacotes de viagem</h2>
+    <form action="inscricao.html"  target="_blank">
+
+        <fieldset style="width: 200px;">
+            <label>Nome    </label>
+            <input type="text" name="Nome">
+            <br>
+            <label>Idade   </label>
+            <input type="number" name="Idade">
+            <br>
+            <label>Email  </label>
+            <input type="email" name="Email">
+            <br>
+            <label>Telefone</label>
+            <input type="tel" name="Telefone"><br>
+            <br>
+           
+            
+
+
+        </fieldset>
+<br>
+        <fieldset style="width: 200px;>
+            <input type="radio" name="ida">
+            <label>Somente ida</label><br>
+            <input type="radio" name="ida">
+            <label>ida e volta</label>
+        </fieldset>
+
+        <h3>Quais serviços deseja contratar</h3>
+        
+        <fieldset style="width: 200px;">
+            <input type="checkbox">
+            <label>Compra de passagem</label><br>
+            <input type="checkbox">
+            <label>Reserva de passagens</label><br>
+            <input type="checkbox">
+            <label>Reserva de veiculos</label><br>
+        </fieldset>
+        <br>
+
+        <fieldset style="width: 200px;">
+            <h3>Quantidade de crianças</h3>
+            1
+            <input type="range">
+            10
+        </fieldset>
+
+        <br>
+
+        <fieldset style="width: 200px;">
+            <input type="checkbox">
+            <label>Compra de passagem</label><br>
+            <input type="checkbox">
+            <label>Reserva de passagens</label><br>
+            <input type="checkbox">
+            <label>Reserva de veiculos</label><br>
+        </fieldset>
+        <br>
+        <fieldset style="width: 200px;">
+            <h3>Aeroportos</h3>
+           <select>
+            <option value=""></option>
+            <option value="Gru">Guarulhos</option>
+            <option value="Congonhas">Congonhas</option>
+            <option value="Santos Dummont">Santos Dummont</option>
+            <option value="Aeroporto Internacional de Viracopos">Aeroporto Internacional de Viracopos</option>
+            <option value="Aeroporto do Campo de Marte">Aeroporto do Campo de Marte</option>
+           </select>
+        </fieldset>
+<br>
+        <fieldset style="width: 200px;">
+            <legend>Escolha um estado:</legend>
+            <input list="listaEstados" name="estados">
+            <datalist id="listaEstados">
+            <option value="São Paulo"></option>
+            <option value="Amapá"></option>
+            <option value="Tocantins"></option>
+            <option value="Sergipe"></option>
+            <option value="Rio de Janeiro"></option>
+            <option value="Rio Grande do Sul"></option>
+            <option value="Rio Grande do Norte"></option>
+            <option value="Bahia"></option>
+            <option value="Paraíba"></option>
+            <option value="Roraima"></option>
+            <option value="Amazonas"></option>
+            </datalist>
+        </fieldset>
+<br>
+
+        <fieldset style="width: 200px;">
+            <label>Deixe suas observações</label><br>
+            <textarea cols="30" rows="10"></textarea>
+        </fieldset><br>
+
+<input type="submit" value="Enviar Cadastro">
+
+    </form>
+</body>
+</html>
