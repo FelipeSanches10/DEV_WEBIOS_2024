@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+           background-color:  rgb(136, 136, 136);
+            
+        }
+
+        .center {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            height: 80vh;
+        }
+
+        button {
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 250px;
+            height: 80px;
+            border-radius: 10px;
+            background-color: rgb(44, 44, 44);
+            color: white;
+            cursor: pointer;
+            border: none;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+            transition-duration: 0.9s;
+            transform: scale(1.04);
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+    <button onclick="clickon()">Clique aqui</button>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
