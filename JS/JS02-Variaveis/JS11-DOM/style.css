@@ -1,0 +1,24 @@
+img {
+    justify-content: center;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.8s;
+    position: absolute;
+    margin-left: left;
+    margin-right: right;
+    width: 15%;
+    padding: 400px;
+    
+    
+}
+
+img:hover {
+    transition-duration: 5s;
+    transform: scale(1.58);
+    transform: rotate(3130deg);
+    background-color: black;
+}
+body {
+    background-color: rgb(240, 240, 240);
+}
