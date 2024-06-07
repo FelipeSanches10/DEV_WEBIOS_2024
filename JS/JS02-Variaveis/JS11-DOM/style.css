@@ -17,8 +17,8 @@ img:hover {
     transition-duration: 5s;
     transform: scale(1.58);
     transform: rotate(3130deg);
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(155, 155, 155);
 }
