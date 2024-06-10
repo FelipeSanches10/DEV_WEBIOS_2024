@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+    transition: background-color 0.3 ease;
+}
+
+.B_12{
+    border: solid 2px #D9BC66;
+    padding: .5rem;
+    background-color: #BFBFBF;
+    margin: .7rem;
+}
