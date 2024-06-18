@@ -23,9 +23,7 @@ function getImage(e) {
     }
     let url_api = document.getElementById('url_api').innerText;
 
-    fetch(url_api, {
-        method: 'GET',
-        })
+    fetch(url_api,)
         .then((response) => {
             return response.json();
             })
